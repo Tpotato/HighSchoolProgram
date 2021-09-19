@@ -1,6 +1,6 @@
-package HW;
+
 import java.util.*;
-public class apcs830_Polygoncalc 
+public class Polygoncalc 
 {
 	public static void main(String[] args)
 	{
@@ -16,7 +16,7 @@ public class apcs830_Polygoncalc
 			else System.out.println("This is not a valid polygon.");
 			nodes = kb.nextInt();
 		}
-		apcs830_polygon poly = new apcs830_polygon(nodes);
+		polygon poly = new polygon(nodes);
 		for (int count = 0; count < nodes; count++)
 		{
 			System.out.println("Enter point " + (count+1) + ":");

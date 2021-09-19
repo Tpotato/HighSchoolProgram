@@ -1,6 +1,5 @@
-package HW;
 import java.util.ArrayList;
-public class apcs1101_CheapestPath 
+public class CheapestPath 
 {
 	public static void main(String[] args)
 	{

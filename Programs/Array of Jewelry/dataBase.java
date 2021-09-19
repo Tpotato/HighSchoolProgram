@@ -1,10 +1,9 @@
-package HW;
 
-public class apcs1206_dataBase 
+public class dataBase 
 {
 	public static void main(String[] args)
 	{
-		apcs1206_Array_of_Jewelry database = new apcs1206_Array_of_Jewelry();
+		Array_of_Jewelry database = new Array_of_Jewelry();
 		database.addMaterials("Gold", 99.9, 10);
 		database.addMaterials("Silver", 50, 5);
 		database.addMaterials("Steel", 80, 2);

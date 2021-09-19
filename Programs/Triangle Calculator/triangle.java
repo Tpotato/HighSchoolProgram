@@ -1,9 +1,9 @@
-package HW;
 
-public class apcs830_triangle 
+
+public class triangle 
 {
 	double one = 1, two = 1, three = 1, s;
-	public apcs830_triangle(double side1, double side2, double side3)
+	public triangle(double side1, double side2, double side3)
 	{
 		one = side1;
 		two = side2;

@@ -1,14 +1,14 @@
-package HW;
 
-public class apcs1206_Rings 
+
+public class Rings 
 {
 	private int id;
-	private apcs1206_material mat;
+	private material mat;
 	private double weight;
 	private double size;
-	private apcs1206_stone[] stones;
+	private stone[] stones;
 	private double production;
-	public apcs1206_Rings(int id, apcs1206_material mat, double weight, double size, apcs1206_stone[] stones, double production)
+	public Rings(int id, material mat, double weight, double size, stone[] stones, double production)
 	{
 		this.id = id;
 		this.mat = mat;
@@ -21,7 +21,7 @@ public class apcs1206_Rings
 	{
 		return id;
 	}
-	public apcs1206_material getmat()
+	public material getmat()
 	{
 		return mat;
 	}

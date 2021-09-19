@@ -1,10 +1,10 @@
-package HW;
+
 import java.util.ArrayList;
-public class apcs903_StringClass 
+public class StringClass 
 {
 	private String copy, characters;
 	ArrayList<Character> list = new ArrayList<Character>();
-	public apcs903_StringClass(String cha)
+	public StringClass(String cha)
 	{		
 		for (int count = 0; count < cha.length(); count++)
 		{

@@ -1,6 +1,5 @@
-package HW;
 
-public class apcs1206_Perfect_Square 
+public class Perfect_Square 
 {
 	public static void main(String [] args)//all c d e are even
 	{

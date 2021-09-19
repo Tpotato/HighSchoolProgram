@@ -1,6 +1,6 @@
-package HW;
+
 import java.util.*;
-public class apsc0121_Parallelograms 
+public class Parallelograms 
 {
 	public static void main(String[] args)
 	{
@@ -21,7 +21,7 @@ public class apsc0121_Parallelograms
 		,{false,false,false,false,false,false,false,false,false,false,false,true}
 		,{false,false,false,false,false,false,false,false,false,false,true,false}};*/
 		char[][] cha = new char[array.length][array[0].length];
-		ArrayList<apcs0121_Lines> lines= new ArrayList<apcs0121_Lines>();
+		ArrayList<Lines> lines= new ArrayList<Lines>();
 		int total = 0,total2 = 0;
 		for (int r = 0; r < array.length; r++)
 		{
@@ -54,7 +54,7 @@ public class apsc0121_Parallelograms
 					{
 						for (int r1 = 0; r1 < array.length; r1++)
 						{
-							if (array[r1][c1]&&!(r==r1&&c==c1))lines.add(new apcs0121_Lines(c,r,c1,r1));
+							if (array[r1][c1]&&!(r==r1&&c==c1))lines.add(new Lines(c,r,c1,r1));
 						}
 					}
 				}

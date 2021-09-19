@@ -1,6 +1,6 @@
-package HW;
+
 import java.util.Scanner; 
-public class apcs830_trianglecalc 
+public class trianglecalc 
 {
 	public static void main(String[] args)
 	{
@@ -19,7 +19,7 @@ public class apcs830_trianglecalc
 			two = kb.nextDouble();
 			three = kb.nextDouble();
 		}
-		apcs830_triangle tri = new apcs830_triangle(one, two, three);
+		triangle tri = new triangle(one, two, three);
 		kb.nextLine();
 		while (num == 1)
 		{

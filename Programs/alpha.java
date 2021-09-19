@@ -1,9 +1,8 @@
-package HW;
 import java.util.*;
-public class apcs927_alpha 
+public class alpha 
 {
 	String ini;
-	public apcs927_alpha(String init)
+	public alpha(String init)
 	{
 		ini = init;
 	}

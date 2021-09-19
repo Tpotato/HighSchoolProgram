@@ -1,6 +1,6 @@
-package HW;
+
 import java.util.*;
-public class apcs903_NotAString 
+public class NotAString 
 {
 	public static void main(String[] args)
 	{

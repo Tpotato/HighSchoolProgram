@@ -1,30 +1,30 @@
-package HW;
+
 import java.util.*;
-public class apcs1206_Array_of_Jewelry 
+public class Array_of_Jewelry 
 {
-	ArrayList<apcs1206_Rings> ring= new ArrayList<apcs1206_Rings>();
-	ArrayList<apcs1206_material> mat = new ArrayList<apcs1206_material>();
-	ArrayList<apcs1206_stone> sto = new ArrayList<apcs1206_stone>();
-	public apcs1206_Array_of_Jewelry(/*apcs1206_material material, double weight, double size, apcs1206_stone[] stones, double production*/)
+	ArrayList<Rings> ring= new ArrayList<Rings>();
+	ArrayList<material> mat = new ArrayList<material>();
+	ArrayList<stone> sto = new ArrayList<stone>();
+	public Array_of_Jewelry(/*material material, double weight, double size, stone[] stones, double production*/)
 	{
-		//ring.add(new apcs1206_Rings(ring.size()+1, material, weight, size, stones, production));
+		//ring.add(new Rings(ring.size()+1, material, weight, size, stones, production));
 	}
 	public void addRing(int materialId, double weight, double size, int[] stonesId, double production)
 	{
-		apcs1206_stone[] stones = new apcs1206_stone[stonesId.length];
+		stone[] stones = new stone[stonesId.length];
 		for (int count = 0; count < stones.length; count++)
 		{
 			stones[count] = sto.get(stonesId[count]-1);
 		}
-		ring.add(new apcs1206_Rings(ring.size()+1, mat.get(materialId-1), weight, size, stones, production));	
+		ring.add(new Rings(ring.size()+1, mat.get(materialId-1), weight, size, stones, production));	
 	}
 	public void addMaterials(String type, double density, double costperMG)
 	{
-		mat.add(new apcs1206_material(mat.size()+1, type, density, costperMG));
+		mat.add(new material(mat.size()+1, type, density, costperMG));
 	}
 	public void addStones(String type, String grade, double cost, double weight)
 	{
-		sto.add(new apcs1206_stone(sto.size()+1, type, grade, cost, weight));
+		sto.add(new stone(sto.size()+1, type, grade, cost, weight));
 	}
 	public double calculateCostOfAllRing()
 	{
@@ -57,7 +57,7 @@ public class apcs1206_Array_of_Jewelry
 	}
 	public void listRingsbyPrice()
 	{
-		ArrayList<apcs1206_Rings> rings = ring;
+		ArrayList<Rings> rings = ring;
 		double max = 0;
 		int maxid = -1;
 		while(rings.size()>0)

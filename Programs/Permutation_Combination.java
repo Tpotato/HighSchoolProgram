@@ -1,6 +1,5 @@
-package HW;
 import java.util.Scanner;
-public class apcs1206_Permutation_Combination 
+public class Permutation_Combination 
 {
 	public static void main(String[] args)
 	{

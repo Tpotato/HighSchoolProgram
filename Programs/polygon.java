@@ -1,10 +1,10 @@
-package HW;
+
 import java.util.ArrayList;
-public class apcs830_polygon 
+public class polygon 
 {
 	int nodes;
 	double sum1 = 0, sum2 = 0, length = 0, product;
-	public apcs830_polygon(int node)
+	public polygon(int node)
 	{
 		nodes = node;
 	}

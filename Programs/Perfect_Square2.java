@@ -1,6 +1,6 @@
-package HW;
 
-public class apcs1206_Perfect_Square2 
+
+public class Perfect_Square2 
 {
 	public static void main(String [] args)
 	{

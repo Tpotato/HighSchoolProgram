@@ -1,7 +1,7 @@
-package HW;
+
 import java.util.*;
 
-public class apcs823_Rounding 
+public class Rounding 
 {
 	public static void main(String[] args)
 	{

@@ -1,12 +1,12 @@
-package HW;
 
-public class apcs1206_material 
+
+public class material 
 {
 	private int id;
 	private String type;
 	private double density;
 	private double costperMG;
-	public apcs1206_material(int id, String type, double density, double costperMG)
+	public material(int id, String type, double density, double costperMG)
 	{
 		this.id = id;
 		this.type = type;

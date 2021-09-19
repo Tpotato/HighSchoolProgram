@@ -1,6 +1,6 @@
-package HW;
 
-public class apcs0121_Lines 
+
+public class Lines 
 {
 	public double length;
 	public int startx;
@@ -8,7 +8,7 @@ public class apcs0121_Lines
 	public int endx;
 	public int endy;
 	public double slope;
-	public apcs0121_Lines(int x1, int y1, int x2, int y2)
+	public Lines(int x1, int y1, int x2, int y2)
 	{
 		if (x1<x2) 
 		{

@@ -1,6 +1,5 @@
-package HW;
 import java.util.*;
-public class apcs927_alphabeticalorder 
+public class alphabeticalorder 
 {
 	public static void main(String[] args) 
 	{
@@ -8,7 +7,7 @@ public class apcs927_alphabeticalorder
 		int g;
 		Scanner kb = new Scanner(System.in);
 		System.out.println("Enter String");
-		apcs927_alpha a = new apcs927_alpha(kb.nextLine());
+		alpha a = new alpha(kb.nextLine());
 		while (h == false)
 		{
 			System.out.println("Enter 1, 2, 3, 4, 5, 6");
